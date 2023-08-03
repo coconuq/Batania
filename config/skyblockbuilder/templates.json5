@@ -1,0 +1,38 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "skyblock_island": [
+      [ 4, 6, 4 ]
+    ],
+    "easy_start": [
+      [ 6, 6, 6 ]
+    ]
+  },
+  
+  "templates": [
+    {
+      "name": "GoG-like",
+      "desc": "Default GoG-like island",
+      "file": "skyblock_island.nbt",
+      "spawns": "skyblock_island",
+      "direction": "south"
+    },
+    {
+      "name": "Easy Start",
+      "desc": "Start with an island provided with bigger starting platform, 3 grown trees and a little bonus",
+      "file": "easy_start.nbt",
+      "spawns": "easy_start",
+      "direction": "south"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+#Local saves, resources, logs
+/backups/
+/downloads/
+/kubejs/exported/
+/local/
+/logs/
+/resourcepacks/
+/saves/
+/schematics/
+/skyblock_exports/
+/tconplanner/
+/trees/
+#User files
+/.curseclient
+/minecraftinstance.json
+/options.txt
+/optionsof.txt
+/optionsshaders.txt
+/patchouli_data.json
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
